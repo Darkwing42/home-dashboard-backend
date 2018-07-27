@@ -4,8 +4,8 @@ import os, sys
 
 
 app = Flaske(__name__)
-
 io = SocketIO(app)
+
 
 @io.on('connect')
 def connect():
